@@ -7,103 +7,138 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-    <header class="header">
-        <div class="logo">
-            <img src="images/logo.png" alt="Three Star Media Logo">
+    <header class="wrapper">
+        <!-- set the header -->
+        <div class="header-cantainer">
+            <div class="yellow-box">
+                <img src="images/logo.png" alt="Three Star Media Logo">
+                
+            </div>
+            <div class="navbar">
+                <a href="#" class=home-link>Home</a>
+                <a href="#">About Us</a>
+                <a href="#">Services</a>
+                <a href="#">Team</a>
+                <a href="#">Contact</a>
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="Search">
+                <button></button>
+            </div>
         </div>
-        <nav class="navbar">
-            <a href="#">Home</a>
-            <a href="#">About Us</a>
-            <a href="#">Services</a>
-            <a href="#">Team</a>
-            <a href="#">Contact</a>
-        </nav>
-        <form class="search-form">
-            <input type="text" placeholder="Search">
-            <button type="submit">Search</button>
-        </form>
+       
     </header>
-    <section class="hero">
-        <img src="images/main-banner.jpg" alt="Three Star Media main-banner">
-        <h1>Welcome to Three Star Media</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <button>Connect with Us</button>
+    <div class="welcome">
+        <section class="hero-section">
+            <img src="images/main-banner.jpg" alt="a photo of a office space">
+            <div class="content-container">
+                <h1>Welcome to Three Star Media</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam rerum voluptas nesciunt quam nostrum similique nihil laboriosam provident neque, recusandae voluptate temporibus! Animi accusamus id fuga voluptatibus facilis iusto consequuntur!</p>
+                <a href="#" class="connect">Connect with us <span>►</span></a>
+            </div>
+        </section>
+    </div>
+    <section class="about-section">
+        <div class="about-container">
+            <img src="images/about-us.jpg" alt="About Us Image">
+            <div class="about-content">
+                <h2>About Us</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero unde repellendus exercitationem asperiores ducimus placeat, maxime soluta nesciunt pariatur aliquam consequuntur sequi saepe sint praesentium laboriosam perferendis eius amet ad?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, velit ipsam? Atque accusamus, excepturi corrupti sunt reiciendis soluta quo commodi quidem, non perferendis vel sed facilis rerum cum in exercitationem?</p>
+            </div>
+        </div>
     </section>
-    <section class="about">
-        <img src="images/about-us.jpg" alt="about-us">
-        <h2>About Us</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    </section>
-    <section class="services">
-        <img src="images/digital.jpg" alt="digital">
+    <section class="services-section">
+          <!-- Container for all service items -->
         <h2>Our Services</h2>
-        <div class="service-item">
-            <h3>Digital Transformation</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <button>Digital Plans</button>
+        <div class="services">
+            <div class="service-div">
+                <img src="images/digital.jpg" alt="Digital Transformation">
+                <div class="service-content">
+                    <h3>Digital Transformation</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Elus vel, rem inventore quo tempora animi mollitia eaque error qui consectetur in reprehenderit magnam at vitae corporis quaerat deleniti explicabo nisi?</p>
+                    <a href="#" class="service-button">Digital Plans ►</a>
+                </div>
+            </div>
+            <div class="service-div">
+                <img src="images/marketing.jpg" alt="Marketing">
+                <div class="service-content">
+                    <h3>Marketing</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Elus vel, rem inventore quo tempora animi mollitia eaque error qui consectetur in reprehenderit magnam at vitae corporis quaerat deleniti explicabo nisi?</p>
+                    <!-- lorem ipsum as placeholder text -->
+                    <a href="#" class="service-button">Marketing Plans ►</a>
+                </div>
+            </div>
+            <div class="service-div">
+                <img src="images/video.jpg" alt="Video Production">
+                <!-- alt for disabled people to know what is being displayed -->
+                <div class="service-content">
+                    <h3>Video Production</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Elus vel, rem inventore quo tempora animi mollitia eaque error qui consectetur in reprehenderit magnam at vitae corporis quaerat deleniti explicabo nisi?</p>
+                    <a href="#" class="service-button">Video Plans ►</a>
+                </div>
+            </div>
+            <div class="service-div">
+                <img src="images/web.jpg" alt="Web Development">
+                <div class="service-content">
+                    <h3>Web Development</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Elus vel, rem inventore quo tempora animi mollitia eaque error qui consectetur in reprehenderit magnam at vitae corporis quaerat deleniti explicabo nisi?</p>
+                    <a href="#" class="service-button">Web Plans ►</a>
+                </div>
+            </div>
+            <div class="service-div">
+                <img src="images/print.jpg" alt="Print">
+                <div class="service-content">
+                    <h3>Print</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Elus vel, rem inventore quo tempora animi mollitia eaque error qui consectetur in reprehenderit magnam at vitae corporis quaerat deleniti explicabo nisi?</p>
+                    <a href="#" class="service-button">Print Plans ►</a>
+                </div>
+            </div>
         </div>
-        <div class="service-item">
-            <img src="images/marketing.jpg" alt="marketing">
-            <h3>Marketing</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <button>Marketing Plans</button>
+    </section>
+    <div class="vision">
+        <div class="wrapper">
+            <img src="images/vision.jpg" alt="a cluster of paper boats">
+            <!-- Subtitle for the Vision section -->
+            <h2>Our Vision</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos ipsam minima, exercitationem provident illo vitae, incidunt nulla, mollitia quia amet repudiandae? Qui, a deserunt! Neque impedit sapiente expedita consequatur reprehenderit.</p>
+            <a href="#" class="learnbutton">Learn More</a>
         </div>
-        <div class="service-item">
-            <img src="images/video.jpg" alt="video">
-            <h3>Video production</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <button>Video Plans</button>
+    </div>
+    <div class="team">
+        <h2>Our Team</h2>
+        <div class="wrapper">
+            <img src="images/john.jpg" alt="bust shot of John">
+            <div class="founder">
+                <h3>John Doe</h3>
+                <h4>CEO and Co-founder</h4>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam voluptatem minus alias facilis. Rerum, inventore perspiciatis? Voluptatum, eius iusto temporibus ut, animi labore, distinctio autem ad eos porro itaque cum.</p>
+            </div>
+            <img src="images/bob.jpg" alt="bust shot of Bob">
+            <div class="founder">
+                <h3>Bob Rite</h3>
+                <h4>CFO and Co-owner</h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad voluptatem doloremque eligendi officia inventore error id? Adipisci, maxime. Quibusdam eveniet quae ullam ut repellat eos suscipit in saepe magnam modi!</p>
+            </div>
         </div>
-        <div class="service-item">
-            <img src="images/web.jpg" alt="web">
-            <h3>Web Development</h3>
-            <p>LLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <button>Web Plans</button>
-        </div>
-        <div class="service-item">
-            <img src="images/print.jpg" alt="print">
-            <h3>Print</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <button>Print Plans</button>
-        </div>
-        <div class="service-item">
-            <img src="images/print.jpg" alt="print">
-            <h3>Print</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <button>Print Plans</button>
-        </div>
-        <div class="service-item">
-            <img src="images/vision.jpg" alt="vision">
-            <h3>Our Vision</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <button>Learn More</button>
-        </div>
-        <div class="Team-mambers">
-            <img src="images/john.jpg" alt="john">
-            <h3>John Doe</h3>
-            <p>CEO and Co-owner</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </div>
-        <div class="Team-mambers">
-            <img src="images/bob.jpg" alt="bob">
-            <h3>Bob Rite</h3>
-            <p>CFO and Co-owner</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </div>
-        <div class="contact-form">
-            <h3>Send us a message</h3>
-            <form action="#" method="POST">
-                <label for="name">Full Name</label>
-                <input type="text" id="name" name="name" placeholder="Your Name" required>
-                
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email" placeholder="Your Email" required>
-                
-                <label for="message">Message</label>
-                <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
-                
-                <button type="submit">Send</button>
-            </form>
+    </div>
+    <div class="lastsection">
+        <!-- one div to group the sections that need to work together -->
+        <div class="contact">
+            <div class="wrapper">
+                <h2>Contact Us</h2>
+                <form action="submit_form.php" method="post">
+                    <label for="name">Fullname</label>
+                    <!-- Label and input for the Full Name field -->
+                    <input type="text" id="name" name="name" required>
+                    <!-- Input field for entering the full name (text type) -->
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" required></textarea>
+                    <button type="submit">Send</button>
+                </form>
+            </div>
         </div>
         <div class="hours">
             <h3>Hours of Operation</h3>
@@ -122,6 +157,7 @@
                 </tr>
             </table>
         </div>
+        <!-- add google map -->
         <div style="width: 100%; height: 400px;">
             <iframe
                 width="100%"
